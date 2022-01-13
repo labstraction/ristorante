@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,700;1,200&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+ color: lightpink;
+ background-color: blue;
+ width: 50%;
+ height: 100px;
+ /* min-width: 300px;
+ max-width: 400px; */
+ /* overflow: hidden; */
+ /* overflow-y: scroll; */
+ margin: 20px;
+ padding: 20px;
+ /* margin-top: 200px;
+ margin-left: 200px; */
+ /* margin: 20px 10px 15px 5px;
+ margin: 20px 10px; */
+
+ /* border-style: solid;
+ border-color: palegreen;
+ border-width: 20px; */
+
+ border: solid 2px purple;
+
+ /* border-top-left-radius: 20px; */
+
+ border-radius: 20px 30px 0px 100px;
+
+ background-image: url(./images/ristorante1.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center center;
+}
+
+.header-subtitle{
+    color: green;
+}
+
+#pippo{
+    color: tomato;
+}
+
+.nav-link{
+    display: inline-block;
+    background-color: violet;
+    width: 300px;
+}
+
+.t1{
+    background-color: rebeccapurple;
+    margin: 0px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    height: 100px;
+}
+.t2{
+    background-color: red;
+    margin: 0px;
+    height: 100px;
+}
+.t3{
+    background-color: blue;
+    margin: 0px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100px;
+}
+.t4{
+    background-color: greenyellow;
+    margin: 0px;
+    height: 100px;
+}
+.t5{
+    background-color: yellow;
+    margin: 0px;
+    height: 100px;
+}
+.t6{
+    background-color: paleturquoise;
+    margin: 0px;
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+.t7{
+    background-color: tomato;
+    margin: 0px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+}
+
+.t7-container{
+    background-color: chartreuse;
+    height: 200px;
+    position: relative;
+}
